@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<title>Viviane Café - Psicóloga</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <!-- Material design includes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- fullPage.js -->
+    <link rel="stylesheet" type="text/css" href="/css/jquery.fullpage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.fullpage.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          // Navigation
+          navigation: false,
+          anchors:['.section-inicio', '.section-consultorio'],
+          // menu: '.mdl-navigation',
+          // lockAnchors: false,
+          // navigationPosition: 'right',
+          // navigationTooltips: ['firstSlide', 'secondSlide'],
+          // showActiveTooltip: false,
+          // slidesNavigation: false,
+          // slidesNavPosition: 'bottom',
+
+          // Scrolling
+          css3: true,
+          scrollingSpeed: 700,
+          autoScrolling: true,
+          fitToSection: true,
+          fitToSectionDelay: 1000,
+          scrollBar: false,
+          easing: 'linear',
+          easingcss3: 'ease',
+          loopBottom: false,
+          loopTop: false,
+          loopHorizontal: true,
+          continuousVertical: false,
+          continuousHorizontal: false,
+          scrollHorizontally: false,
+          interlockedSlides: false,
+          dragAndMove: false,
+          offsetSections: false,
+          resetSliders: false,
+          fadingEffect: false,
+          normalScrollElements: '#element1, .element2',
+          scrollOverflow: false,
+          scrollOverflowReset: false,
+          scrollOverflowOptions: null,
+          touchSensitivity: 15,
+          normalScrollElementTouchThreshold: 5,
+          bigSectionsDestination: null,
+
+          //Accessibility
+          keyboardScrolling: true,
+          animateAnchor: true,
+          recordHistory: true,
+
+          //Design
+          controlArrows: true,
+          verticalCentered: true,
+          // sectionsColor : ['#ccc', '#fff'],
+          paddingTop: '3em',
+          paddingBottom: '10px',
+          fixedElements: '#mdl-layout__header, .footer',
+          responsiveWidth: 0,
+          responsiveHeight: 0,
+          responsiveSlides: false,
+          parallax: false,
+          parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+
+          lazyLoading: true,
+        });
+      });
+    </script>
+	</head>
+  <body>
+    <div id='outer'>
+      <div class="mdl-layout mdl-js-layout mdl-js-layout--fixed-header">
+        <header class='mdl-layout__header'>
+          <div class='mdl-layout__header-row'>
+            <span class='mdl-layout-title'>Viviane Café</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class='mdl-navigation'>
+              <a class="mdl-navigation__link" href="#">Início</a>
+              <a class="mdl-navigation__link" href="#">Consultório</a>
+              <a class="mdl-navigation__link" href="#">Contato</a>
+            </nav>
+          </div>
+          <div class='mdl-layout__header-row subtitle'>
+            <span>Psicanálise para mulheres e crianças</span>
+          </div>
+        </header>
+        <main class='mdl-layout__content'>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col"></div>
+            <div class="mdl-cell mdl-cell--5-col">
+              <img src='/images/sofa.png'>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col">
+              <span>Bem-vinda!</span>
+              <p>
+                Sou a Viviane Café. Trabalho como psicóloga em Belo Horizonte
+                há X anos. Após vários anos na Psicologia Social, hoje atuo
+                como psicanalista com foco em <strong>mulheres e
+                  crianças</strong>.
+              </p>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col"></div>
+           <!-- 
+            <div class="mdl-cell mdl-cell--12-col contato">
+              <p>Telefone: +55 31 97115-4600</p>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col contato">
+              <p>Endereço: Rua Ceará, 211, Sala 204</p>
+            </div>
+           -->
+          </div>
+        </main> <!-- end of content  -->
+      </div> <!-- end of layout -->
+    </div> <!-- end of outer -->
+  </body>
+</html>

@@ -1,0 +1,14 @@
+body {
+  background-image: url('/images/fundo-tracejado-repeat.png');
+  background-repeat: repeat-both;
+}
+
+.section {
+  min-height: 800px;
+  padding-top: 3em;
+}
+
+.contato {
+  background-color: #fdff89
+}
+
